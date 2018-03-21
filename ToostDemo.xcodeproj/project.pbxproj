@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3FC41661FE9863100767D95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FC41651FE9863100767D95 /* main.m */; };
+		D3FC41691FE9863100767D95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FC41681FE9863100767D95 /* AppDelegate.m */; };
+		D3FC416C1FE9863100767D95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FC416B1FE9863100767D95 /* ViewController.m */; };
+		D3FC416F1FE9863100767D95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3FC416D1FE9863100767D95 /* Main.storyboard */; };
+		D3FC41711FE9863100767D95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3FC41701FE9863100767D95 /* Assets.xcassets */; };
+		D3FC41741FE9863100767D95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3FC41721FE9863100767D95 /* LaunchScreen.storyboard */; };
+		D3FC417F1FE9863200767D95 /* ToostDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FC417E1FE9863200767D95 /* ToostDemoTests.m */; };
+		D3FC418A1FE9863200767D95 /* ToostDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FC41891FE9863200767D95 /* ToostDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3FC417B1FE9863200767D95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3FC41591FE9863100767D95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3FC41601FE9863100767D95;
+			remoteInfo = ToostDemo;
+		};
+		D3FC41861FE9863200767D95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3FC41591FE9863100767D95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3FC41601FE9863100767D95;
+			remoteInfo = ToostDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3FC41611FE9863100767D95 /* ToostDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToostDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3FC41651FE9863100767D95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3FC41671FE9863100767D95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3FC41681FE9863100767D95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D3FC416A1FE9863100767D95 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D3FC416B1FE9863100767D95 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D3FC416E1FE9863100767D95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3FC41701FE9863100767D95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3FC41731FE9863100767D95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3FC41751FE9863100767D95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3FC417A1FE9863200767D95 /* ToostDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToostDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3FC417E1FE9863200767D95 /* ToostDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToostDemoTests.m; sourceTree = "<group>"; };
+		D3FC41801FE9863200767D95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3FC41851FE9863200767D95 /* ToostDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToostDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3FC41891FE9863200767D95 /* ToostDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToostDemoUITests.m; sourceTree = "<group>"; };
+		D3FC418B1FE9863200767D95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3FC415E1FE9863100767D95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3FC41771FE9863200767D95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3FC41821FE9863200767D95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3FC41581FE9863100767D95 = {
+			isa = PBXGroup;
+			children = (
+				D3FC41631FE9863100767D95 /* ToostDemo */,
+				D3FC417D1FE9863200767D95 /* ToostDemoTests */,
+				D3FC41881FE9863200767D95 /* ToostDemoUITests */,
+				D3FC41621FE9863100767D95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3FC41621FE9863100767D95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3FC41611FE9863100767D95 /* ToostDemo.app */,
+				D3FC417A1FE9863200767D95 /* ToostDemoTests.xctest */,
+				D3FC41851FE9863200767D95 /* ToostDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3FC41631FE9863100767D95 /* ToostDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D3FC41671FE9863100767D95 /* AppDelegate.h */,
+				D3FC41681FE9863100767D95 /* AppDelegate.m */,
+				D3FC416A1FE9863100767D95 /* ViewController.h */,
+				D3FC416B1FE9863100767D95 /* ViewController.m */,
+				D3FC416D1FE9863100767D95 /* Main.storyboard */,
+				D3FC41701FE9863100767D95 /* Assets.xcassets */,
+				D3FC41721FE9863100767D95 /* LaunchScreen.storyboard */,
+				D3FC41751FE9863100767D95 /* Info.plist */,
+				D3FC41641FE9863100767D95 /* Supporting Files */,
+			);
+			path = ToostDemo;
+			sourceTree = "<group>";
+		};
+		D3FC41641FE9863100767D95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3FC41651FE9863100767D95 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3FC417D1FE9863200767D95 /* ToostDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3FC417E1FE9863200767D95 /* ToostDemoTests.m */,
+				D3FC41801FE9863200767D95 /* Info.plist */,
+			);
+			path = ToostDemoTests;
+			sourceTree = "<group>";
+		};
+		D3FC41881FE9863200767D95 /* ToostDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3FC41891FE9863200767D95 /* ToostDemoUITests.m */,
+				D3FC418B1FE9863200767D95 /* Info.plist */,
+			);
+			path = ToostDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3FC41601FE9863100767D95 /* ToostDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3FC418E1FE9863200767D95 /* Build configuration list for PBXNativeTarget "ToostDemo" */;
+			buildPhases = (
+				D3FC415D1FE9863100767D95 /* Sources */,
+				D3FC415E1FE9863100767D95 /* Frameworks */,
+				D3FC415F1FE9863100767D95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToostDemo;
+			productName = ToostDemo;
+			productReference = D3FC41611FE9863100767D95 /* ToostDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3FC41791FE9863200767D95 /* ToostDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3FC41911FE9863200767D95 /* Build configuration list for PBXNativeTarget "ToostDemoTests" */;
+			buildPhases = (
+				D3FC41761FE9863200767D95 /* Sources */,
+				D3FC41771FE9863200767D95 /* Frameworks */,
+				D3FC41781FE9863200767D95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3FC417C1FE9863200767D95 /* PBXTargetDependency */,
+			);
+			name = ToostDemoTests;
+			productName = ToostDemoTests;
+			productReference = D3FC417A1FE9863200767D95 /* ToostDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3FC41841FE9863200767D95 /* ToostDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3FC41941FE9863200767D95 /* Build configuration list for PBXNativeTarget "ToostDemoUITests" */;
+			buildPhases = (
+				D3FC41811FE9863200767D95 /* Sources */,
+				D3FC41821FE9863200767D95 /* Frameworks */,
+				D3FC41831FE9863200767D95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3FC41871FE9863200767D95 /* PBXTargetDependency */,
+			);
+			name = ToostDemoUITests;
+			productName = ToostDemoUITests;
+			productReference = D3FC41851FE9863200767D95 /* ToostDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3FC41591FE9863100767D95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Yashwant;
+				TargetAttributes = {
+					D3FC41601FE9863100767D95 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5T2NF5GC32;
+						ProvisioningStyle = Automatic;
+					};
+					D3FC41791FE9863200767D95 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5T2NF5GC32;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D3FC41601FE9863100767D95;
+					};
+					D3FC41841FE9863200767D95 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5T2NF5GC32;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D3FC41601FE9863100767D95;
+					};
+				};
+			};
+			buildConfigurationList = D3FC415C1FE9863100767D95 /* Build configuration list for PBXProject "ToostDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3FC41581FE9863100767D95;
+			productRefGroup = D3FC41621FE9863100767D95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3FC41601FE9863100767D95 /* ToostDemo */,
+				D3FC41791FE9863200767D95 /* ToostDemoTests */,
+				D3FC41841FE9863200767D95 /* ToostDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3FC415F1FE9863100767D95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FC41741FE9863100767D95 /* LaunchScreen.storyboard in Resources */,
+				D3FC41711FE9863100767D95 /* Assets.xcassets in Resources */,
+				D3FC416F1FE9863100767D95 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3FC41781FE9863200767D95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3FC41831FE9863200767D95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3FC415D1FE9863100767D95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FC416C1FE9863100767D95 /* ViewController.m in Sources */,
+				D3FC41691FE9863100767D95 /* AppDelegate.m in Sources */,
+				D3FC41661FE9863100767D95 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3FC41761FE9863200767D95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FC417F1FE9863200767D95 /* ToostDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3FC41811FE9863200767D95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FC418A1FE9863200767D95 /* ToostDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3FC417C1FE9863200767D95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3FC41601FE9863100767D95 /* ToostDemo */;
+			targetProxy = D3FC417B1FE9863200767D95 /* PBXContainerItemProxy */;
+		};
+		D3FC41871FE9863200767D95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3FC41601FE9863100767D95 /* ToostDemo */;
+			targetProxy = D3FC41861FE9863200767D95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3FC416D1FE9863100767D95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3FC416E1FE9863100767D95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3FC41721FE9863100767D95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3FC41731FE9863100767D95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3FC418C1FE9863200767D95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3FC418D1FE9863200767D95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3FC418F1FE9863200767D95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5T2NF5GC32;
+				INFOPLIST_FILE = ToostDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.yash.ToostDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D3FC41901FE9863200767D95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5T2NF5GC32;
+				INFOPLIST_FILE = ToostDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.yash.ToostDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D3FC41921FE9863200767D95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5T2NF5GC32;
+				INFOPLIST_FILE = ToostDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.yash.ToostDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToostDemo.app/ToostDemo";
+			};
+			name = Debug;
+		};
+		D3FC41931FE9863200767D95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5T2NF5GC32;
+				INFOPLIST_FILE = ToostDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.yash.ToostDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToostDemo.app/ToostDemo";
+			};
+			name = Release;
+		};
+		D3FC41951FE9863200767D95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5T2NF5GC32;
+				INFOPLIST_FILE = ToostDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.yash.ToostDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ToostDemo;
+			};
+			name = Debug;
+		};
+		D3FC41961FE9863200767D95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5T2NF5GC32;
+				INFOPLIST_FILE = ToostDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.yash.ToostDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ToostDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3FC415C1FE9863100767D95 /* Build configuration list for PBXProject "ToostDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3FC418C1FE9863200767D95 /* Debug */,
+				D3FC418D1FE9863200767D95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3FC418E1FE9863200767D95 /* Build configuration list for PBXNativeTarget "ToostDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3FC418F1FE9863200767D95 /* Debug */,
+				D3FC41901FE9863200767D95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3FC41911FE9863200767D95 /* Build configuration list for PBXNativeTarget "ToostDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3FC41921FE9863200767D95 /* Debug */,
+				D3FC41931FE9863200767D95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3FC41941FE9863200767D95 /* Build configuration list for PBXNativeTarget "ToostDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3FC41951FE9863200767D95 /* Debug */,
+				D3FC41961FE9863200767D95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3FC41591FE9863100767D95 /* Project object */;
+}
